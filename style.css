@@ -22,8 +22,10 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .mainbox-content-header {
     background-color: blue;
+    margin-top: 35px;
 }
 
 .mainbox-content-containers {
@@ -32,8 +34,18 @@ body {
     justify-content: space-between;
 }
 .mainbox-content-container-box img {
-    width: 100px;
+    height: 250px;
     flex: 0 32%;
+    padding: 20px;
 }
 
 /*Styling for footer*/
+.mainbox-footer {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    color: white;
+    background-color: black;
+    align-self: flex-end;
+}
