@@ -9,6 +9,7 @@ body {
 }
 .mainbox-navbar-item {
     flex-grow: 1;
+    /*order: 4;*/
     height: 50px;
     background-color: green;
 }
