@@ -24,15 +24,27 @@ body {
 .navbar-item {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-grow: 1;
     height: 50px;
     padding: 0;
     background-color: green;
 }
 
+.navbar-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
 .navbar-item + .navbar-item {
     margin-left: 2%;
 }
+
 .navbar-separator {
     width: 25%;
 }
