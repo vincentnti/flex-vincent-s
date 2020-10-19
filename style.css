@@ -19,14 +19,18 @@ body {
     display: flex;
     background: red;
 }
-.mainbox-navbar-item {
+.navbar-item {
     flex-grow: 1;
     /*order: 4;*/
     height: 50px;
     background-color: green;
 }
-.mainbox-navbar-item + .mainbox-navbar-item {
+
+.navbar-item + .navbar-item {
     margin-left: 2%;
+}
+.navbar-separator {
+    width: 25%;
 }
 
 /*Styling for content*/
@@ -45,7 +49,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: orange;
 }
+
 .mainbox-content-container-box img {
     height: 250px;
     flex: 0 32%;
