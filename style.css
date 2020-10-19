@@ -14,15 +14,19 @@ body {
     padding-left: 135px;
     padding-right: 135px;
 }
+
 /*Styling for navbar*/
 .navbar {
     display: flex;
     background: red;
 }
+
 .navbar-item {
+    display: flex;
+    justify-content: center;
     flex-grow: 1;
-    /*order: 4;*/
     height: 50px;
+    padding: 0;
     background-color: green;
 }
 
