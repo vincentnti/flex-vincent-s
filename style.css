@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .mainbox {
@@ -19,7 +20,10 @@ body {
 .navbar {
     display: flex;
     background: red;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .navbar-item {
     display: flex;
@@ -28,7 +32,9 @@ body {
     flex-grow: 1;
     height: 50px;
     padding: 0;
+    margin: 0;
     background-color: green;
+    border: 1px solid black;
 }
 
 .navbar-item a {
@@ -40,14 +46,37 @@ body {
     height: 100%;
     width: 100%;
     background-color: pink;
+    text-decoration: none;
 }
+
+.navbar-item p {
+    color: black;
+    font-size: 25px;
+}
+.navbar-item img {
+    height: 100%;
+    margin: 0;
+}
+/*
 .navbar-item + .navbar-item {
     margin-left: 2%;
 }
-
+*/
 .navbar-separator {
-    width: 25%;
+    width: 349px;
 }
+
+/* Kanske ska ta bort denna media grejsen och byta ut den mot bara en flexbox*/
+@media (max-width: 1200px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .navbar-separator {
+        padding:0 !important;
+        width: 0 !important;
+    }
+}
+
+
+
 
 /*Styling for content*/
 .mainbox-content {
