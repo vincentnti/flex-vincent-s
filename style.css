@@ -35,6 +35,7 @@ body {
     margin: 0;
     background-color: green;
     border: 1px solid black;
+    min-width: 24.3vh;
 }
 
 .navbar-item a {
@@ -63,17 +64,11 @@ body {
 }
 */
 .navbar-separator {
-    width: 349px;
+    /*max-width: 349px;*/
+    width: 36vh;
 }
 
-/* Kanske ska ta bort denna media grejsen och byta ut den mot bara en flexbox*/
-@media (max-width: 1200px) {
-    /* CSS that should be displayed if width is equal to or less than 800px goes here */
-    .navbar-separator {
-        padding:0 !important;
-        width: 0 !important;
-    }
-}
+
 
 
 
