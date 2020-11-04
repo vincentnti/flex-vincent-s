@@ -7,23 +7,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.mainbox {
-    flex: 1;
-    max-width: 1140px;
-    background-color: yellow;
-    margin: auto;
-    padding-left: 135px;
-    padding-right: 135px;
-}
-
 /*Styling for navbar*/
 .navbar {
     display: flex;
-    background: red;
+    background: white;
+
     justify-content: center;
     align-items: center;
 }
-
 
 .navbar-item {
     display: flex;
@@ -33,9 +24,7 @@ body {
     height: 50px;
     padding: 0;
     margin: 0;
-    background-color: green;
-    border: 1px solid black;
-    min-width: 24.3vh;
+    min-width: 23.3vh;
 }
 
 .navbar-item a {
@@ -46,8 +35,8 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
-    background-color: pink;
     text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .navbar-item p {
@@ -55,8 +44,9 @@ body {
     font-size: 25px;
 }
 .navbar-item img {
-    height: 100%;
+    height: 70%;
     margin: 0;
+    padding: 0;
 }
 /*
 .navbar-item + .navbar-item {
@@ -68,7 +58,17 @@ body {
     width: 36vh;
 }
 
+.mainbox {
+    flex: 1;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: center;
 
+    padding-left: 135px;
+    padding-right: 135px;
+    
+    /*background-color: yellow;*/
+}
 
 /*Styling for content*/
 .mainbox-content {
@@ -78,23 +78,32 @@ body {
 }
 
 .mainbox-content-header {
-    background-color: blue;
     margin-top: 35px;
+    font-family: 'Work Sans', sans-serif;
+    /*background-color: blue;*/
 }
 
 .mainbox-content-containers {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: orange;
+    /*background-color: orange;*/
 }
 
 .mainbox-content-container-box img {
-    height: 250px;
-    flex: 0 32%;
-    padding: 20px;
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+    padding: 12px;
 }
 
+.mainbox-product-containers-box {
+    background-color: black;
+    /*Note to self edit images remove white image maybe?*/
+    /*Informational boxes with a purchase button*/
+    /*dark rectangle with image wtih text*/
+    
+}
 /*Styling for footer*/
 .footer {
     width: 100%;
