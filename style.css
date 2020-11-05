@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2 !important
 }
 
 /*Styling for navbar*/
@@ -60,7 +61,8 @@ body {
 
 .mainbox {
     flex: 1;
-    max-width: 1140px;
+    /*max-width: 1140px;*/
+    width: 55%;
     margin: auto;
     justify-content: center;
 
@@ -85,32 +87,111 @@ body {
 
 .mainbox-content-containers {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
+    width: 100%;
+    max-width: 3300vh;
     /*background-color: orange;*/
+
+    /*
+
+    NOTE
+    TO
+    SELF
+    FIX MARGIN
+    FOR
+    THE MAIN THREE ITEMS HERE
+    */
 }
 
 .mainbox-content-container-box img {
     object-fit: cover;
-    height: 350px;
-    width: 350px;
-    padding: 12px;
+
+    height: 120%; 
+    width: 100%;
+    /*old size for images was 350px*/
+}
+
+.mainbox-product {
+    display:flex;
+    justify-content: center;;
+}
+
+.mainbox-product-containers {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    /*flex grid layout is needed here*/
 }
 
 .mainbox-product-containers-box {
-    background-color: black;
-    /*Note to self edit images remove white image maybe?*/
-    /*Informational boxes with a purchase button*/
-    /*dark rectangle with image wtih text*/
-    
+    /*background-color: black;*/
+    min-width: 0;
+    max-width: 500px;
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+    background-color: white;
 }
+
+.mainbox-product-containers-box img {
+    width: 100%;
+}
+.mainbox-product-containers-box-title {
+    margin-bottom: 300px;
+}
+
+.mainbox-product-containers-box-subtitle {
+    color: grey;
+    font-size: 12px;
+}
+
+.mainbox-product-containers-box-rating {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.checked {
+    color: orange;
+}
+
+.mainbox-product-containers-box p {
+    padding: 0;
+    margin: 0;
+}
+
+.mainbox-product-containers-box-price {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mainbox-product-containers-box-button {
+    display: flex;
+    justify-content: center;
+    background-color: #0192d4;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.mainbox-product-containers-box-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 5px;
+}
+
 /*Styling for footer*/
 .footer {
-    width: 100%;
-    height: 100px;
-
     display: flex;
-    color: white;
-    background-color: black;
+
+    width: 100%;
+    height: 200px;
+    background-color: #d2d2d2;
+    
+    color: black;
+    font-weight: bold;
+    
     align-self: flex-end;
 }
