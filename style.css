@@ -80,6 +80,7 @@ body {
 }
 
 .mainbox-content-header {
+    margin: 0;
     margin-top: 35px;
     font-family: 'Work Sans', sans-serif;
     /*background-color: blue;*/
@@ -89,25 +90,28 @@ body {
     display: flex;
     /*flex-wrap: wrap;*/
     justify-content: space-between;
-    width: 100%;
+    width: 120%;
     max-width: 3300vh;
+    padding-top: 0;
     /*background-color: orange;*/
+}
 
-    /*
+.mainbox-content-container-box {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+}
 
-    NOTE
-    TO
-    SELF
-    FIX MARGIN
-    FOR
-    THE MAIN THREE ITEMS HERE
-    */
+.mainbox-content-container-box-link {
+    font-size: 15px;
 }
 
 .mainbox-content-container-box img {
-    object-fit: cover;
+    /*object-fit: cover;*/
+    object-fit: scale-down;
 
-    height: 120%; 
+    height: 70%; 
     width: 100%;
     /*old size for images was 350px*/
 }
