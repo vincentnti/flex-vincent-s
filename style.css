@@ -123,6 +123,7 @@ body {
 
 .mainbox-product-containers {
     display:flex;
+    flex-wrap: wrap; /*for use with grid*/
     justify-content: space-between;
     width: 100%;
     /*flex grid layout is needed here*/
@@ -130,6 +131,10 @@ body {
 
 .mainbox-product-containers-box {
     /*background-color: black;*/
+    /*for use with grid*/
+    flex: 0 25%;
+
+    /*End of grid stuff*/
     min-width: 0;
     max-width: 500px;
     padding: 10px 10px 20px 10px;
