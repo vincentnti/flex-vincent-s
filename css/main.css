@@ -1,0 +1,71 @@
+.mainbox-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainbox-content-header {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 0;
+    margin-top: 35px;
+}
+
+.mainbox-content-containers {
+    display: flex;
+    justify-content: space-between;
+
+    width: 120%;
+    max-width: 3300vh;
+}
+
+.mainbox-content-container-box {
+    background: white;
+
+    height: 100%;
+
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.mainbox-content-container-box-link {
+    font-size: 15px;
+}
+
+.mainbox-content-container-box img {
+    height: 70%; 
+    width: 100%;
+
+    object-fit: scale-down;
+}
+
+/*Reviews*/
+.mainbox-content-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 125%;
+    margin-top: 30px;
+}
+.mainbox-content-reviews-review {
+    display: flex;
+    align-items: center;
+
+    max-width: 350px;
+    min-width: 250px;
+    
+    margin: 10px;
+}
+.mainbox-content-reviews-review p {
+    padding: 10px;
+}
+.mainbox-content-reviews-review img {
+    object-fit: cover;
+    border-radius: 100%;
+
+    width: 80px;
+    height: 80px;
+}
