@@ -41,7 +41,6 @@ body {
     margin: 0;
 
     text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
 }
 
 .navbar-item p {
@@ -59,13 +58,7 @@ body {
     max-width: 36vh;
     min-width: 1vh;
 }
-/*
-.navbar-icon {
-    width: 50px;
 
-    margin: 0;
-}
-*/
 .mainbox {
     flex: 1;
     justify-content: center;
@@ -88,7 +81,8 @@ body {
 .mainbox-content-header {
     margin: 0;
     margin-top: 35px;
-    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mainbox-content-containers {
@@ -140,7 +134,7 @@ body {
     flex: 0 25%;
 
     /*End of grid stuff*/
-    min-width: 250px;
+    min-width: 180px;
     max-width: 500px;
     padding: 10px 10px 20px 10px;
     margin: 10px;
@@ -196,6 +190,7 @@ body {
     font-weight: 5px;
 }
 
+/*Reviews*/
 .mainbox-content-reviews {
     display: flex;
     flex-wrap: wrap;
@@ -227,15 +222,40 @@ body {
 /*Styling for footer*/
 .footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex: wrap;
+    align-items: center;
 
     width: 100%;
-    height: 100px;
+    height: 100%;
     background-color: #d2d2d2;
     
     color: black;
-    font-weight: bold;
     
     align-self: flex-end;
+}
+
+
+.footer-slot {
+    width: 200px;
+
+    margin-right: 25px;
+    margin-left: 25px;
+    
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-slot h5 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-slot p {
+    display: flex;
+    align-self: flex-end;
+}
+
+.footer-slot a {
+    display: contents;
 }
