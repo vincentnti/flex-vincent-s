@@ -56,7 +56,8 @@ body {
 */
 .navbar-separator {
     /*max-width: 349px;*/
-    width: 36vh;
+    max-width: 36vh;
+    min-width: 1vh;
 }
 
 .mainbox {
@@ -135,7 +136,7 @@ body {
     flex: 0 25%;
 
     /*End of grid stuff*/
-    min-width: 0;
+    min-width: 250px;
     max-width: 500px;
     padding: 10px 10px 20px 10px;
     margin: 10px;
@@ -191,9 +192,32 @@ body {
     font-weight: 5px;
 }
 
+.mainbox-content-reviews {
+    display: flex;
+    justify-content: center;
+    width: 125%;
+    margin-top: 30px;
+}
+.mainbox-content-reviews-review {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.mainbox-content-reviews-review p {
+    padding: 10px;
+}
+.mainbox-content-reviews-review img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
 /*Styling for footer*/
 .footer {
     display: flex;
+    justify-content: center;
+    flex: wrap;
 
     width: 100%;
     height: 100px;
