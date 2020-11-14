@@ -190,7 +190,7 @@ body {
     font-weight: 5px;
 }
 
-/*Reviews*/
+/*Reviews for mainpage*/
 .mainbox-content-reviews {
     display: flex;
     flex-wrap: wrap;
@@ -217,6 +217,41 @@ body {
     height: 80px;
     object-fit: cover;
     border-radius: 100%;
+}
+/*Contact us*/
+.mainbox-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.mainbox-contact-header {
+    margin: 0;
+    margin-top: 35px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainbox-contact-form input{
+    width: 500px;
+    height: 300px;
+}
+
+.mainbox-contact button {
+    width: 500px;
+    height: 25px;
+    margin: 10px;
+    
+    background-color: #0192d4;
+    
+    color: white;
+    font-weight: 5px;
+    text-decoration: none;
+
+    border-radius: 5px;
+    border: none;
 }
 
 /*Styling for footer*/
