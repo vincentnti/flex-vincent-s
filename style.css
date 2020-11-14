@@ -14,7 +14,7 @@ body {
     background: white;
 
     justify-content: center;
-    align-items: center;
+    align-items: center; /*MIGHT BE USELESS CHECK LATER*/
 }
 
 .navbar-item {
@@ -22,20 +22,24 @@ body {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+
     height: 50px;
+
     padding: 0;
     margin: 0;
-    min-width: 23.3vh;
 }
 
 .navbar-item a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+
     height: 100%;
     width: 100%;
+
+    padding: 0;
+    margin: 0;
+
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
 }
@@ -44,33 +48,34 @@ body {
     color: black;
     font-size: 25px;
 }
+
 .navbar-item img {
     height: 70%;
     margin: 0;
     padding: 0;
 }
-/*
-.navbar-item + .navbar-item {
-    margin-left: 2%;
-}
-*/
+
 .navbar-separator {
-    /*max-width: 349px;*/
     max-width: 36vh;
     min-width: 1vh;
 }
+/*
+.navbar-icon {
+    width: 50px;
 
+    margin: 0;
+}
+*/
 .mainbox {
     flex: 1;
-    /*max-width: 1140px;*/
-    width: 55%;
-    margin: auto;
     justify-content: center;
 
+    width: 55%;
+
+    margin: auto;
+    
     padding-left: 135px;
     padding-right: 135px;
-    
-    /*background-color: yellow;*/
 }
 
 /*Styling for content*/
@@ -84,7 +89,6 @@ body {
     margin: 0;
     margin-top: 35px;
     font-family: 'Work Sans', sans-serif;
-    /*background-color: blue;*/
 }
 
 .mainbox-content-containers {
@@ -194,14 +198,21 @@ body {
 
 .mainbox-content-reviews {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    
     width: 125%;
     margin-top: 30px;
 }
 .mainbox-content-reviews-review {
     display: flex;
     align-items: center;
-    margin: 20px;
+
+    max-width: 350px;
+    min-width: 250px;
+    
+
+    margin: 10px;
 }
 .mainbox-content-reviews-review p {
     padding: 10px;
