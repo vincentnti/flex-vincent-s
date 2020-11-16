@@ -3,14 +3,20 @@
 /*Content*/
 .mainbox-product {
     display:flex;
-    justify-content: center;;
+    justify-content: center;
+    /*använder sig av display flex och justify ocntent för att centrera horizontellt.*/
 }
 
 .mainbox-product-containers {
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    /*
+        använder sig av display flex med justify content space between för 
+        seperation mellan elementen och även flex wrap för wrapping/omslag 
+        på dem.
+    */
+
     width: 100%;
 }
 
@@ -18,7 +24,11 @@
     background-color: white;
 
     flex: 0 25%;
-
+    /*
+        använder sig av flex som är kort för grow shrink och basis och i detta
+        fallet används för en grid liknande layout för elementen
+    */
+    
     min-width: 180px;
     max-width: 500px;
 
@@ -63,6 +73,10 @@
 .mainbox-product-containers-box-button {
     display: flex;
     justify-content: center;
+    /*
+        använder sig av display flex och justify-content: center för
+        centrering horizontellt.
+    */
 
     background-color: #0192d4;
 

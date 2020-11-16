@@ -22,6 +22,16 @@
 <body>
     <!--Navbar-->
     <div class="navbar">
+        <!--
+            (.navbar) använder sig av display flex och justify content för att centrera alla 
+            (.navbar-item).
+            
+            (.navbar-item) använder sig av display flex, justify content 
+            för att centrera. (.navbar-item) använder sig även av flex grow som
+            låter elementen växa ifall det skulle vara nödvändigt.
+
+            (.navbar-item a) använder sig av display flex med justify content och align items för centrering.
+        -->
         <ul class="navbar-separator"></ul>
         <ul class="navbar-item"><a href="index.html"><p>Home</p></a></ul>
         <ul class="navbar-item"><a href="products.html"><p>Products</p></a></ul>
@@ -34,6 +44,10 @@
     <!--Content-->
     <div class="mainbox">
         <div class="mainbox-content">
+            <!--
+                (.mainbox-content) använder sig av display flex för användning av flexbox tillsammans med
+                flex-direction column för att lista elementen som en lista och centrerar verticallt med align-items center.
+            -->
             <!--Header-->
             <div class="mainbox-content-header">
                 <p>Sofa Kingdom</p>
@@ -42,8 +56,8 @@
             <!--Shopping options-->
             <div class="mainbox-content-containers">
                 <!--
-                    (.mainbox-content-containers) uses display flex and space between
-                    for just that, space between each (mainbox-content-container-box) item.
+                    (.mainbox-content-containers) använder sig av display flex och space between 
+                    för precis det, plats mellan varje (mainbox-content-container-box).
                 -->
                 <div class="mainbox-content-container-box">
                     <p class="mainbox-content-container-box-header">Shop by comfort</p>
@@ -65,9 +79,8 @@
             <!--Reviews-->
             <div class="mainbox-content-reviews">
                 <!--
-                    (.mainbox-content-reviews) uses display flex and flex-warp wrap, 
-                    for wrapping (.mainbox-content-reviews-review) items around and aligns them
-                    to the center using justify content
+                    (.mainbox-content-reviews) använder sig av display flex och flex-wrap wrap för wrapping/omslag
+                    på (.mainbox-content-reviews-review). De placeras även i mitten med justify content.
                 -->
                 <div class="mainbox-content-reviews-review">
                     <img src="/imgs/reviewers/man.jpg">
@@ -89,6 +102,10 @@
     <footer>
         <div class="footer">
             <!--Footer slots-->
+            <!--
+                (.footer) använder sig av display med flex-wrap wrap för wrapping/omslag på alla (.footer-slot)
+                den använder sig även av justify-content center och align items center för centrering.
+            -->
             <div class="footer-slot">
                 <h5>Subscribe</h5>
                 <p>Want to sign up to our newsletter? <a href="">Do it here</a></p>

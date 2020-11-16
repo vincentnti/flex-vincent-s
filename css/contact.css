@@ -5,6 +5,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /*
+        använder sig av display flex för användning av flexbox tillsammans med align items center
+        vilket centrerar elementen verticallt och flex-direction column får elementen 
+        lägga sig i en lista/verticallt.
+    */
     
     height: 500px;
 }

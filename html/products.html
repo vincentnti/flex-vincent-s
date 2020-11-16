@@ -24,6 +24,16 @@
 <body>
     <!--Navbar-->
     <div class="navbar">
+        <!--
+            (.navbar) använder sig av display flex och justify content för att centrera alla 
+            (.navbar-item).
+
+            (.navbar-item) använder sig av display flex, justify content 
+            för att centrera. (.navbar-item) använder sig även av flex grow som
+            låter elementen växa ifall det skulle vara nödvändigt.
+
+            (.navbar-item a) använder sig av display flex med justify content och align items för centrering.
+        -->
         <ul class="navbar-separator"></ul>
         <ul class="navbar-item"><a href="index.html"><p>Home</p></a></ul>
         <ul class="navbar-item"><a href="products.html"><p>Products</p></a></ul>
@@ -36,8 +46,21 @@
     <!--Content-->
     <div class="mainbox">
         <div class="mainbox-product">
+            <!--
+                (.mainbox-product) använder sig av display flex och justify ocntent för att centrera horizontellt.
+            -->
             <div class="mainbox-product-containers">
                 <!--Products-->
+                <!--
+                    (.mainbox-product-containers) använder sig av display flex med justify content space between för seperation
+                    mellan elementen och även flex wrap för wrapping/omslag på (.mainbox-product-containers-box) elementen.
+
+                    (.mainbox-product-containers-box-button) använder sig av display flex och justify-content: center för
+                    centrering horizontellt.
+
+                    (.mainbox-product-containers-box) använder sig av flex som är kort för grow shrink och basis och i detta
+                    fallet används för en grid liknande layout för elementen
+                -->
                 <div class="mainbox-product-containers-box">
                     <img src="/imgs/products/couch_1.jpg">
                     <a class="mainbox-product-containers-box-title" href="">Couch of Heaven</a>
@@ -136,6 +159,10 @@
     <footer>
         <div class="footer">
             <!--Footer slots-->
+            <!--
+                (.footer) använder sig av display med flex-wrap wrap för wrapping/omslag på alla (.footer-slot)
+                den använder sig även av justify-content center och align items center för centrering.
+            -->
             <div class="footer-slot">
                 <h5>Subscribe</h5>
                 <p>Want to sign up to our newsletter? <a href="">Do it here</a></p>

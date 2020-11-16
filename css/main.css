@@ -5,6 +5,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /*
+        använder sig av display flex för användning av flexbox tillsammans med
+        flex-direction column för att lista elementen som en lista och centrerar 
+        verticallt med align-items center.
+    */
 }
 
 .mainbox-content-header {
@@ -18,6 +23,10 @@
 .mainbox-content-containers {
     display: flex;
     justify-content: space-between;
+    /*
+        använder sig av display flex och space between 
+        för precis det, plats mellan varje element.
+    */
 
     width: 120%;
     max-width: 3300vh;
@@ -49,7 +58,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    /*
+        använder sig av display flex och flex-wrap wrap för wrapping/omslag
+        på elementen. De placeras även i mitten med justify content.
+    */
+
     width: 125%;
     margin-top: 30px;
 }

@@ -15,6 +15,7 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
+    /*använder sig av display flex och justify content för att centrera*/
 
     background: white;
 }
@@ -22,9 +23,11 @@ body {
 .navbar-item {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+    /*använder sig av display flex, justify content för att centrera*/
 
+    flex-grow: 1;
+    /*använder sig även av flex grow som låter elementen växa ifall det skulle vara nödvändigt*/
+    
     height: 50px;
 
     padding: 0;
@@ -35,6 +38,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /*använder sig av display flex med justify content och align items för centrering*/
 
     height: 100%;
     width: 100%;
@@ -81,6 +85,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    /*
+        använder sig av display med flex-wrap wrap för wrapping/omslag och använder 
+        sig även av justify-content center och align items center för centrering.
+    */
 
     width: 100%;
     height: 100%;
@@ -104,11 +112,6 @@ body {
 .footer-slot h5 {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-}
-
-.footer-slot p {
-    display: flex;
-    align-self: flex-end;
 }
 
 .footer-slot a {
