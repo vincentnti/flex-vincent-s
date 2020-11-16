@@ -1,3 +1,6 @@
+/*css file for product.html*/
+
+/*Content*/
 .mainbox-product {
     display:flex;
     justify-content: center;;
@@ -23,6 +26,7 @@
     margin: 10px;
 }
 
+/*Product*/
 .mainbox-product-containers-box img {
     width: 100%;
 }
@@ -42,7 +46,7 @@
 }
 
 .checked {
-    color: orange;
+    color: orange; /*For use with star rating*/
 }
 
 .mainbox-product-containers-box p {

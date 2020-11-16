@@ -1,3 +1,6 @@
+/*css file for index.html the main page*/
+
+/*Content*/
 .mainbox-content {
     display: flex;
     flex-direction: column;
@@ -50,6 +53,7 @@
     width: 125%;
     margin-top: 30px;
 }
+
 .mainbox-content-reviews-review {
     display: flex;
     align-items: center;
@@ -59,9 +63,11 @@
     
     margin: 10px;
 }
+
 .mainbox-content-reviews-review p {
     padding: 10px;
 }
+
 .mainbox-content-reviews-review img {
     object-fit: cover;
     border-radius: 100%;

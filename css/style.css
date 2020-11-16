@@ -1,3 +1,6 @@
+/*css file for general styling*/
+/*for things that usually appear in all html documents*/
+
 body {
     margin: 0;
     display: flex;
@@ -59,6 +62,7 @@ body {
     min-width: 1vh;
 }
 
+/*Mainbox styling*/
 .mainbox {
     flex: 1;
     justify-content: center;
@@ -86,7 +90,6 @@ body {
     
     align-self: flex-end;
 }
-
 
 .footer-slot {
     width: 200px;

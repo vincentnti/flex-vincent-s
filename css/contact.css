@@ -1,3 +1,6 @@
+/*css for contact.html*/
+
+/*Content*/
 .mainbox-contact {
     display: flex;
     align-items: center;
@@ -14,6 +17,7 @@
     margin-top: 35px;
 }
 
+/*Form*/
 .mainbox-contact-form input{
     width: 500px;
     height: 300px;
