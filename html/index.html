@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Title-->
     <title>Sofa Kingdom</title>
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="/svgs/favicon.svg" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="../svgs/favicon.svg" type="image/x-icon" />
+
     <!--Styling-->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/main.css" />
 
     <!--Font Links-->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--Navbar-->
     <div class="navbar">
-        <!--
+      <!--
             (.navbar) använder sig av display flex och justify content för att centrera alla 
             (.navbar-item).
             
@@ -32,97 +38,122 @@
 
             (.navbar-item a) använder sig av display flex med justify content och align items för centrering.
         -->
-        <ul class="navbar-separator"></ul>
-        <ul class="navbar-item"><a href="index.html"><p>Home</p></a></ul>
-        <ul class="navbar-item"><a href="products.html"><p>Products</p></a></ul>
-        <ul class="navbar-item"><a href="contact.html"><p>Contact</p></a></ul>
-        <ul class="navbar-item"><a href="aboutus.html"><p>About us</p></a></ul>
-        <ul class="navbar-item"><a href="https://youtu.be/dQw4w9WgXcQ"><img src="/svgs/shopping-cart.svg" /><p>Cart</p></a></ul>
-        <ul class="navbar-separator"></ul>
+      <ul class="navbar-separator"></ul>
+      <ul class="navbar-item">
+        <a href="index.html"><p>Home</p></a>
+      </ul>
+      <ul class="navbar-item">
+        <a href="products.html"><p>Products</p></a>
+      </ul>
+      <ul class="navbar-item">
+        <a href="contact.html"><p>Contact</p></a>
+      </ul>
+      <ul class="navbar-item">
+        <a href="aboutus.html"><p>About us</p></a>
+      </ul>
+      <ul class="navbar-item">
+        <a href="https://youtu.be/dQw4w9WgXcQ"
+          ><img src="../svgs/shopping-cart.svg" />
+          <p>Cart</p></a
+        >
+      </ul>
+      <ul class="navbar-separator"></ul>
     </div>
 
     <!--Content-->
     <div class="mainbox">
-        <div class="mainbox-content">
-            <!--
+      <div class="mainbox-content">
+        <!--
                 (.mainbox-content) använder sig av display flex för användning av flexbox tillsammans med
                 flex-direction column för att lista elementen som en lista och centrerar verticallt med align-items center.
             -->
-            <!--Header-->
-            <div class="mainbox-content-header">
-                <p>Sofa Kingdom</p>
-            </div>
+        <!--Header-->
+        <div class="mainbox-content-header">
+          <p>Sofa Kingdom</p>
+        </div>
 
-            <!--Shopping options-->
-            <div class="mainbox-content-containers">
-                <!--
+        <!--Shopping options-->
+        <div class="mainbox-content-containers">
+          <!--
                     (.mainbox-content-containers) använder sig av display flex och space between 
                     för precis det, plats mellan varje (mainbox-content-container-box).
                 -->
-                <div class="mainbox-content-container-box">
-                    <p class="mainbox-content-container-box-header">Shop by comfort</p>
-                    <a href="products.html"><img src="/imgs/products/couch_1.jpg"></a>
-                    <a href="/html/products.html"><p class="mainbox-content-container-box-link">Shop now</p></a>
-                </div>
-                <div class="mainbox-content-container-box">
-                    <p class="mainbox-content-container-box-header">Discounts</p>
-                    <a href="products.html"><img src="/imgs/products/couch_2.jpg"></a>
-                    <a href="/html/products.html"><p class="mainbox-content-container-box-link">Shop now</p></a>
-                </div>
-                <div class="mainbox-content-container-box">
-                    <p class="mainbox-content-container-box-header">Couches</p>
-                    <a href="products.html"><img src="/imgs/products/couch_3.jpg"></a>
-                    <a href="/html/products.html"><p class="mainbox-content-container-box-link">Shop now</p></a>
-                </div>
-            </div>
+          <div class="mainbox-content-container-box">
+            <p class="mainbox-content-container-box-header">Shop by comfort</p>
+            <a href="products.html"
+              ><img src="../imgs/products/couch_1.jpg"
+            /></a>
+            <a href="/html/products.html"
+              ><p class="mainbox-content-container-box-link">Shop now</p></a
+            >
+          </div>
+          <div class="mainbox-content-container-box">
+            <p class="mainbox-content-container-box-header">Discounts</p>
+            <a href="products.html"
+              ><img src="../imgs/products/couch_2.jpg"
+            /></a>
+            <a href="/html/products.html"
+              ><p class="mainbox-content-container-box-link">Shop now</p></a
+            >
+          </div>
+          <div class="mainbox-content-container-box">
+            <p class="mainbox-content-container-box-header">Couches</p>
+            <a href="products.html"
+              ><img src="../imgs/products/couch_3.jpg"
+            /></a>
+            <a href="/html/products.html"
+              ><p class="mainbox-content-container-box-link">Shop now</p></a
+            >
+          </div>
+        </div>
 
-            <!--Reviews-->
-            <div class="mainbox-content-reviews">
-                <!--
+        <!--Reviews-->
+        <div class="mainbox-content-reviews">
+          <!--
                     (.mainbox-content-reviews) använder sig av display flex och flex-wrap wrap för wrapping/omslag
                     på (.mainbox-content-reviews-review). De placeras även i mitten med justify content.
                 -->
-                <div class="mainbox-content-reviews-review">
-                    <img src="/imgs/reviewers/man.jpg">
-                    <p>This got to be the best website for buying couches!</p>
-                </div>
-                <div class="mainbox-content-reviews-review">
-                    <img src="/imgs/reviewers/woman.jpg">
-                    <p>I've bough multiple couches here! Good stuff!</p>
-                </div>
-                <div class="mainbox-content-reviews-review">
-                    <img src="/imgs/reviewers/cat.jpg">
-                    <p>Found the perfect couch for our living room 10/10</p>
-                </div>
-            </div>
+          <div class="mainbox-content-reviews-review">
+            <img src="../imgs/reviewers/man.jpg" />
+            <p>This got to be the best website for buying couches!</p>
+          </div>
+          <div class="mainbox-content-reviews-review">
+            <img src="../imgs/reviewers/woman.jpg" />
+            <p>I've bough multiple couches here! Good stuff!</p>
+          </div>
+          <div class="mainbox-content-reviews-review">
+            <img src="../imgs/reviewers/cat.jpg" />
+            <p>Found the perfect couch for our living room 10/10</p>
+          </div>
         </div>
+      </div>
     </div>
 
     <!--Footer-->
     <footer>
-        <div class="footer">
-            <!--Footer slots-->
-            <!--
+      <div class="footer">
+        <!--Footer slots-->
+        <!--
                 (.footer) använder sig av display med flex-wrap wrap för wrapping/omslag på alla (.footer-slot)
                 den använder sig även av justify-content center och align items center för centrering.
             -->
-            <div class="footer-slot">
-                <h5>Subscribe</h5>
-                <p>Want to sign up to our newsletter? <a href="">Do it here</a></p>
-            </div>
-            <div class="footer-slot">
-                <h5>About</h5>
-                <p>We sell quality couches. <a href="aboutus.html">Read more</a></p>
-            </div>
-            <div class="footer-slot">
-                <h5>Contact us</h5>
-                <p>Any questions? Problems?  <a href="contact.html">Let us know</a></p>
-            </div>
-            <div class="footer-slot">
-                <h5>Copyright</h5>
-                <p>© 2020 Sofa Kingdom, Inc. All rights reserved.</p>
-            </div>
+        <div class="footer-slot">
+          <h5>Subscribe</h5>
+          <p>Want to sign up to our newsletter? <a href="">Do it here</a></p>
         </div>
+        <div class="footer-slot">
+          <h5>About</h5>
+          <p>We sell quality couches. <a href="aboutus.html">Read more</a></p>
+        </div>
+        <div class="footer-slot">
+          <h5>Contact us</h5>
+          <p>Any questions? Problems? <a href="contact.html">Let us know</a></p>
+        </div>
+        <div class="footer-slot">
+          <h5>Copyright</h5>
+          <p>© 2020 Sofa Kingdom, Inc. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
